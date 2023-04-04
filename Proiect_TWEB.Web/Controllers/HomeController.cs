@@ -12,8 +12,8 @@ namespace Proiect_TWEB.Web.Controllers
         //
         public ActionResult Index()
         {
-            return View();
+               ViewBag.title = "Home";
+               return View();
         }
     }
 }
-//
