@@ -1,4 +1,6 @@
-﻿<ul class="list-unstyled topnav-menu float-right mb-0">
+﻿@model Proiect_TWEB.Web.Models.UserData
+
+<ul class="list-unstyled topnav-menu float-right mb-0">
 
      <li class="d-none d-sm-block">
           <form class="app-search">
@@ -51,7 +53,7 @@
           <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                <img src="~/Content/images/users/Eu.jpg" alt="user-image" class="rounded-circle">
                <span class="pro-user-name ml-1">
-                    Cozaru Dan <i class="mdi mdi-chevron-down"></i>
+                    @Html.DisplayFor(u => u.Username) <i class="mdi mdi-chevron-down"></i>
                </span>
           </a>
           <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
@@ -165,4 +167,5 @@
 
           </div>
      </li>
+</ul>
 

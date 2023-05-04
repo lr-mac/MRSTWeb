@@ -1,1 +1,34 @@
-﻿
+﻿@model Proiect_TWEB.Web.Models.UserData
+
+<div class="row">
+     <div class="col-md-12">
+          <div class="table">
+               <table class="table table-bordered">
+                    <thead>
+                         <tr>
+                              <th>PRODUCT</th>
+                              <th>ACTION</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                         @using (Ajax.BeginForm("Product", "Home", new AjaxOptions { HttpMethod = "POST",
+                              OnSuccess = "success", OnFailure = "fail", UpdateTargetId = "resultTarget" }))
+                         {
+                           foreach (var prod in Model.Products)
+                         {
+                              <tr>
+                                   <td>@prod</td>
+                                   <td> 
+                                   <button style="float: right" class="btn-primary btn-xs" name="btn"
+                                           type="submit" value="@prod">
+                                        View
+                                   </button>
+                                 </td>
+                                </tr>
+                              }
+                         }
+                     </tbody>
+               </table>
+          </div>
+     </div>
+</div>

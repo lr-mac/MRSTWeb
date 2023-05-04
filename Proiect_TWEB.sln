@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect_TWEB.Web", "Proiect_TWEB.Web\Proiect_TWEB.Web.csproj", "{1FCDA169-3BDF-41F0-8F1A-E311FEF474BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect_TWEB.Domain", "Proiect_TWEB.Domain\Proiect_TWEB.Domain.csproj", "{E277CD90-E556-469F-9006-AB854BC11AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect_TWEB.Helpers", "Proiect_TWEB.Helpers\Proiect_TWEB.Helpers.csproj", "{EE52CBBA-6817-41C7-A35F-37B6D7EDC362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect_TWEB.BusinessLogic", "Proiect_TWEB.BusinessLogic\Proiect_TWEB.BusinessLogic.csproj", "{BE84D429-DA0D-4610-ADC7-7360B7F00F59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{1FCDA169-3BDF-41F0-8F1A-E311FEF474BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCDA169-3BDF-41F0-8F1A-E311FEF474BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCDA169-3BDF-41F0-8F1A-E311FEF474BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E277CD90-E556-469F-9006-AB854BC11AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E277CD90-E556-469F-9006-AB854BC11AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E277CD90-E556-469F-9006-AB854BC11AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E277CD90-E556-469F-9006-AB854BC11AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE52CBBA-6817-41C7-A35F-37B6D7EDC362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE52CBBA-6817-41C7-A35F-37B6D7EDC362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE52CBBA-6817-41C7-A35F-37B6D7EDC362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE52CBBA-6817-41C7-A35F-37B6D7EDC362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE84D429-DA0D-4610-ADC7-7360B7F00F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE84D429-DA0D-4610-ADC7-7360B7F00F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE84D429-DA0D-4610-ADC7-7360B7F00F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE84D429-DA0D-4610-ADC7-7360B7F00F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
