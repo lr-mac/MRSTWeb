@@ -47,6 +47,9 @@ namespace Proiect_TWEB.Web.Controllers
                     if (userLogin.Status)
                     {
                          //ADD COOKIE
+                         HttpCookie cookie = _session.GenCookie(login.Credential);
+                         ControllerContext.HttpContext.Response.Cookies.Add(cookie);
+
                          return RedirectToAction("Index", "Home");
                     }
                     else

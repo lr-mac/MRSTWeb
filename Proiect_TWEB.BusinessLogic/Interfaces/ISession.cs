@@ -9,6 +9,7 @@ namespace Proiect_TWEB.BusinessLogic.Interfaces
 {
      public interface ISession
      {
+      
      }
 
 }
